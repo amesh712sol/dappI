@@ -154,15 +154,6 @@ function Navbar({
           justifyContent: "center",
         }}
       >
-        <SymbolImg
-          src={"/config/images/symbol.png"}
-          style={{ marginRight: "1.5vw" }}
-       //  style={{ width: "10%" }}
-        ></SymbolImg>
-         <LogoImg
-          src={"/config/images/logo.png"}
-         style={{ width: "33%", }}
-        ></LogoImg>
       </div>
       <div style={{ display: "flex", alignItems: "center" }}>
         <s.PopupPanel onClick={() => setIsOpen(!isOpen)}>
@@ -289,18 +280,7 @@ function Navbar({
           </PopupDialogBody>
         </PopupDialog>
 
-        <a href="https://d14jas3qhdbdap.cloudfront.net/hellionz-whitepaper-v0.01.pdf" target="_blank">
-          <BtnsImg
-            src={"/config/images/wtppr.png"}
-            style={{
-              maxHeight: "12vh",
-              width: "220px",
-              padding: "0 0.5rem",
-              paddingLeft: "20px",
-              paddingRight: "20px",
-            }}
-          ></BtnsImg>
-        </a>
+       
         <a href="https://d14fsdfsfs.com">
           <StkBtnImg
             src={"/config/images/hustlegame.png"}

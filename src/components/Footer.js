@@ -164,38 +164,7 @@ function Footer() {
          paddingTop: "3rem",
          paddingBottom: "3rem",
         }}>,
-        <SymbolImg
-          src={"/config/images/symbol.png"}
-          style={{ width: "110px", marginRight: "0vw", }}
-        ></SymbolImg>
-        <s.SpacerMedium></s.SpacerMedium>
-        {/* <s.TextPara data-wow-offset="100" style={{fontFamily: "marvin",}} >{"Hellionz"}</s.TextPara> */}
-        <s.TextFooter>{"© 2022 All Rights Reserved | Hellionz"}</s.TextFooter>
-        <s.Container
-          flex={1}
-          style={{
-            display: "flex",
-            flexDirection: "row",
-            justifyContent: "center",
-            maxWidth: "25vw",
-          }}
-        >
-          <a href="https://opensea.io/collection/hellionz-underworld-pass" target="_blank">
-            <OSSocialButton
-              style={{ margin: "1rem", marginRight: "1vw" }}
-            ></OSSocialButton>
-          </a>
-          <a href="https://dsc.gg/hb-hellionz" target="_blank">
-            <DisSocialButton
-              style={{ margin: "1rem", marginRight: "1vw" }}
-            ></DisSocialButton>
-          </a>
-          <a href="https://twitter.com/hellionznft" target="_blank">
-            <TwitSocialButton
-              style={{ margin: "1rem", marginRight: "1vw" }}
-            ></TwitSocialButton>
-          </a>
-        </s.Container>
+    
       </FooterContent>
     </div>
   );
